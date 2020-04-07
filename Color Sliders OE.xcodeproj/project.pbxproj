@@ -13,6 +13,9 @@
 		0A3DE71F242B17F7002F7E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE71D242B17F7002F7E21 /* Main.storyboard */; };
 		0A3DE721242B17F8002F7E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE720242B17F8002F7E21 /* Assets.xcassets */; };
 		0A3DE724242B17F8002F7E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE722242B17F8002F7E21 /* LaunchScreen.storyboard */; };
+		0A3DE72E242BA544002F7E21 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE72B242BA544002F7E21 /* Icon@2x.png */; };
+		0A3DE72F242BA544002F7E21 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE72C242BA544002F7E21 /* Icon-72.png */; };
+		0A3DE730242BA544002F7E21 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE72D242BA544002F7E21 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0A3DE720242B17F8002F7E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3DE723242B17F8002F7E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A3DE725242B17F8002F7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3DE72B242BA544002F7E21 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0A3DE72C242BA544002F7E21 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0A3DE72D242BA544002F7E21 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0A3DE720242B17F8002F7E21 /* Assets.xcassets */,
 				0A3DE722242B17F8002F7E21 /* LaunchScreen.storyboard */,
 				0A3DE725242B17F8002F7E21 /* Info.plist */,
+				0A3DE72C242BA544002F7E21 /* Icon-72.png */,
+				0A3DE72D242BA544002F7E21 /* Icon.png */,
+				0A3DE72B242BA544002F7E21 /* Icon@2x.png */,
 			);
 			path = "Color Sliders OE";
 			sourceTree = "<group>";
@@ -125,7 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3DE730242BA544002F7E21 /* Icon.png in Resources */,
 				0A3DE724242B17F8002F7E21 /* LaunchScreen.storyboard in Resources */,
+				0A3DE72F242BA544002F7E21 /* Icon-72.png in Resources */,
+				0A3DE72E242BA544002F7E21 /* Icon@2x.png in Resources */,
 				0A3DE721242B17F8002F7E21 /* Assets.xcassets in Resources */,
 				0A3DE71F242B17F7002F7E21 /* Main.storyboard in Resources */,
 			);
@@ -293,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.rosehulman.espinood.Color-Sliders-OE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.rosehulman.espinood.Color-Sliders-OE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
